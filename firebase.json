@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "notesapp-73da2",
+          "appId": "1:110223535546:android:07396d71c5ca326cd90183",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "notesapp-73da2",
+          "configurations": {
+            "android": "1:110223535546:android:07396d71c5ca326cd90183",
+            "ios": "1:110223535546:ios:7d6a7e5a07be3e69d90183",
+            "web": "1:110223535546:web:29eff9798d3f4107d90183"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
